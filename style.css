@@ -1009,3 +1009,11 @@ transition: opacity 2s ease;
 .message.show {
     opacity: 1;
 }
+.signature {
+    margin-top: 12px;
+    font-family: "Brush Script MT", cursive;
+    font-size: 22px;
+    color: #ffd6ef;
+    opacity: 0.9;
+    font-style: italic;
+}
