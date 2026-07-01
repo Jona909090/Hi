@@ -5,7 +5,7 @@ onload = () => {
     }, 1000);
 
     // Prikaži tekst nakon što se cvijeće otvori
-    setTimeout(() => {
-        document.getElementById("message").classList.add("show");
-    }, 7000);
-};
+   setTimeout(() => {
+    alert("Radi JavaScript");
+    document.getElementById("message").classList.add("show");
+}, 7000);
