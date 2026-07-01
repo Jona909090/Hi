@@ -992,8 +992,10 @@ body {
     top: 40px;
     left: 50%;
     transform: translateX(-50%);
-opacity: 0;
-transition: opacity 2s ease;
+    width: fit-content;
+
+    opacity: 0;
+    transition: opacity 2s ease;
     color: #ff6ec7;
     font-size: 46px;
     font-family: "Brush Script MT", cursive;
@@ -1010,12 +1012,12 @@ transition: opacity 2s ease;
     opacity: 1;
 }
 .signature {
-    position: relative;
-    left: 95px;
-    top: -5px;
+    position: absolute;
+    right: -40px;
+    bottom: -35px;
 
     font-family: "Segoe Script", "Brush Script MT", cursive;
-    font-size: 28px;
+    font-size: 24px;
     font-style: italic;
 
     color: #ffd6ef;
