@@ -985,39 +985,15 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
-.message {
-    position: fixed;
-    top: 50px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
 
-    color: #ff7bcf;
-    font-size: 42px;
-    font-family: cursive;
 
-    opacity: 0;
-    transition: opacity 2s ease;
-
-    text-shadow:
-        0 0 10px #ff4db8,
-        0 0 20px #ff4db8,
-        0 0 40px #ff4db8;
-
-    z-index: 9999;
-}
-
-.message.show {
-    opacity: 1;
-}
 .message {
     position: fixed;
     top: 40px;
     left: 50%;
     transform: translateX(-50%);
-    opacity: 0;
-    transition: opacity 2s ease;
-
+opacity: 0;
+transition: opacity 2s ease;
     color: #ff6ec7;
     font-size: 46px;
     font-family: "Brush Script MT", cursive;
@@ -1029,8 +1005,4 @@ body {
         0 0 40px #ff4db8;
 
     z-index: 9999;
-}
-
-.message.show {
-    opacity: 1;
 }
