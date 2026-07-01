@@ -6,6 +6,6 @@ window.onload = function () {
 
     setTimeout(function () {
         document.getElementById("message").classList.add("show");
-    }, 3000);
+    }, 2500);
 
 };
