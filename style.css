@@ -1010,10 +1010,14 @@ transition: opacity 2s ease;
     opacity: 1;
 }
 .signature {
-    margin-top: 12px;
-    font-family: "Brush Script MT", cursive;
-    font-size: 22px;
-    color: #ffd6ef;
-    opacity: 0.9;
+    margin-top: -5px;
+    margin-left: 170px;
+    font-family: "Segoe Script", "Brush Script MT", cursive;
+    font-size: 30px;
     font-style: italic;
+    color: #ffd6ef;
+    opacity: 0.95;
+    text-shadow:
+        0 0 8px #ff4db8,
+        0 0 16px #ff4db8;
 }
