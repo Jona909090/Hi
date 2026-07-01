@@ -1006,3 +1006,6 @@ transition: opacity 2s ease;
 
     z-index: 9999;
 }
+.message.show {
+    opacity: 1;
+}
