@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#140707"/>
+    <stop offset="35%" stop-color="#6d1d0f"/>
+    <stop offset="58%" stop-color="#c44a19"/>
+    <stop offset="72%" stop-color="#3d130f"/>
+    <stop offset="100%" stop-color="#080606"/>
+  </linearGradient>
+  <radialGradient id="sun" cx="72%" cy="28%" r="25%">
+    <stop offset="0%" stop-color="#ffd88a" stop-opacity="1"/>
+    <stop offset="25%" stop-color="#ff8b35" stop-opacity=".8"/>
+    <stop offset="100%" stop-color="#ff5a1f" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="8"/></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="2"/></filter>
+</defs>
+
+<rect width="1024" height="1536" fill="url(#bg)"/>
+<rect width="1024" height="1536" fill="url(#sun)"/>
+<circle cx="748" cy="394" r="30" fill="#ffd58a"/>
+<ellipse cx="720" cy="442" rx="290" ry="26" fill="#ff8d2c" opacity=".18" filter="url(#glow)"/>
+<rect x="0" y="470" width="1024" height="1066" fill="#050505" opacity=".28"/>
+
+<!-- silhouette -->
+<circle cx="862" cy="275" r="38" fill="#070707"/>
+<path d="M822 308 Q865 286 907 320 L931 418 Q925 497 888 560 L850 560 Q837 500 817 445 Q796 390 805 342 Z" fill="#070707"/>
+<path d="M852 540 Q900 550 941 622 L916 637 Q874 590 828 580 Z" fill="#070707"/>
+<path d="M820 515 Q792 573 754 628 L729 615 Q755 548 791 493 Z" fill="#070707"/>
+
+<!-- title -->
+<text x="512" y="95" text-anchor="middle" font-family="Georgia, serif" font-size="88" font-weight="700" fill="#fff3e5" stroke="#c62418" stroke-width="4">IVANA</text>
+<text x="512" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="32" font-weight="700" fill="#fff2dc">6. oktobar, 10:00h</text>
+
+<g font-family="Georgia, serif" text-anchor="middle" fill="#ffe9cf">
+  <text x="512" y="182" font-size="29">1 godina</text>
+  <text x="512" y="216" font-size="29">365 dana</text>
+  <text x="512" y="250" font-size="29">8.760 sati</text>
+  <text x="512" y="284" font-size="29">525.600 minuta</text>
+</g>
+
+<g font-family="Georgia, serif" font-size="20" fill="#fff8ee">
+  <text x="34" y="342">
+    <tspan x="34" dy="0">Prošla je godina, a meni kao tren,</tspan>
+    <tspan x="34" dy="27">od dana kad se srušio moj najlepši san.</tspan>
+    <tspan x="34" dy="27">Od tog 6. oktobra, od tih deset sati,</tspan>
+    <tspan x="34" dy="27">srce još ne ume bez tebe da se vrati.</tspan>
+
+    <tspan x="34" dy="42">Tog dana se ugasio moj najlepši svet,</tspan>
+    <tspan x="34" dy="27">ono što sam mislio da trajaće zauvek.</tspan>
+    <tspan x="34" dy="27">Jer verovao sam da sam pronašao tebe,</tspan>
+    <tspan x="34" dy="27">nekog za koga bih dao i poslednji deo sebe.</tspan>
+
+    <tspan x="34" dy="42">Za tebe bih se borio i kad svi odu,</tspan>
+    <tspan x="34" dy="27">za tebe bih prošao i kroz vatru i vodu.</tspan>
+    <tspan x="34" dy="27">Bez straha bih dao i poslednji dah,</tspan>
+    <tspan x="34" dy="27">jer život bez tebe bio mi je najveći strah.</tspan>
+
+    <tspan x="34" dy="42">Sanjao sam jutra da budim se kraj tebe,</tspan>
+    <tspan x="34" dy="27">da godine prolaze, a da čuvamo sebe.</tspan>
+    <tspan x="34" dy="27">Sanjao sam dom, tvoj osmeh i mir,</tspan>
+    <tspan x="34" dy="27">da si mi zauvek najlepši životni cilj.</tspan>
+
+    <tspan x="34" dy="42">A onda je tog dana sve nestalo u trenu,</tspan>
+    <tspan x="34" dy="27">ostavila si tišinu tamo gde sam imao ženu</tspan>
+    <tspan x="34" dy="27">koju sam u mislima uz sebe zauvek video,</tspan>
+    <tspan x="34" dy="27">i sve što sam želeo s tobom sam poželeo.</tspan>
+
+    <tspan x="34" dy="42">Od tada dani idu, ali ja stojim tu,</tspan>
+    <tspan x="34" dy="27">još tražim tvoje oči u svakom svome snu.</tspan>
+    <tspan x="34" dy="27">Godina je prošla, ali nije prošla bol,</tspan>
+    <tspan x="34" dy="27">jer bez tebe i najlepši dan ostane samo pol.</tspan>
+
+    <tspan x="34" dy="42">Bilo je ljutnje, bilo je teških reči,</tspan>
+    <tspan x="34" dy="27">bilo je trenutaka koje ništa ne može izlečiti.</tspan>
+    <tspan x="34" dy="27">Ali ni kada sam bio slomljen i ljut,</tspan>
+    <tspan x="34" dy="27">moja ljubav prema tebi nije izgubila put.</tspan>
+
+    <tspan x="34" dy="42">Možda sam ćutao, možda glumio led,</tspan>
+    <tspan x="34" dy="27">možda sam pred tobom delovao kao da je sve u red.</tspan>
+    <tspan x="34" dy="27">Ali iza te tišine, iza ponosa i sna,</tspan>
+    <tspan x="34" dy="27">uvek si bila ti — i samo ti, Ivana.</tspan>
+  </text>
+
+  <text x="520" y="570">
+    <tspan x="520" dy="0">Nijednog trenutka nisam prestao da te volim,</tspan>
+    <tspan x="520" dy="27">ni onda kad sam pokušavao od sebe da te sklonim.</tspan>
+    <tspan x="520" dy="27">Što sam više bežao, vraćao sam se tebi,</tspan>
+    <tspan x="520" dy="27">jer srce ne zna lagati ni drugima ni sebi.</tspan>
+
+    <tspan x="520" dy="42">Ti si mi bila i sreća i bol,</tspan>
+    <tspan x="520" dy="27">najlepši početak i najteži kraj.</tspan>
+    <tspan x="520" dy="27">Ti si mi bila sve što sam od života hteo,</tspan>
+    <tspan x="520" dy="27">i jedina koju sam ovako iskreno voleo.</tspan>
+
+    <tspan x="520" dy="42">I zato danas, posle godine cele,</tspan>
+    <tspan x="520" dy="27">kad sećanja još uvek isto peku i bole,</tspan>
+    <tspan x="520" dy="27">nemam više potrebu da skrivam šta osećam ja,</tspan>
+    <tspan x="520" dy="27">niti želim više da se krijem iza ćutanja.</tspan>
+
+    <tspan x="520" dy="42">Jer ako me život jednom pita</tspan>
+    <tspan x="520" dy="27">koga sam voleo više od sebe,</tspan>
+    <tspan x="520" dy="27">neću morati ni trenutak da mislim —</tspan>
+    <tspan x="520" dy="27">odgovor će zauvek biti tvoje ime.</tspan>
+  </text>
+</g>
+
+<g font-family="Georgia, serif" fill="#ffd2c8">
+  <text x="520" y="1080" font-size="24" font-style="italic">
+    <tspan x="520" dy="0">Ivana, ne volim te samo najviše na svetu.</tspan>
+    <tspan x="520" dy="32">Volim te više nego što umem da kažem,</tspan>
+    <tspan x="520" dy="32">više nego što ove reči mogu da pokažu,</tspan>
+    <tspan x="520" dy="32">više nego što jedna godina može da izbriše.</tspan>
+
+    <tspan x="520" dy="48">I ako mi jednog dana ostane samo jedan</tspan>
+    <tspan x="520" dy="32">poslednji otkucaj srca,</tspan>
+    <tspan x="520" dy="32">voleo bih da i on bude za tebe.</tspan>
+    <tspan x="520" dy="32">Jer ako sam ikada nekoga voleo celim svojim bićem,</tspan>
+    <tspan x="520" dy="32">onda si to bila ti.</tspan>
+    <tspan x="520" dy="32">I još uvek si ti.</tspan>
+  </text>
+</g>
+
+<path d="M180 1370 C150 1330 92 1360 120 1412 C146 1457 180 1479 180 1479 C180 1479 214 1457 240 1412 C268 1360 210 1330 180 1370Z" fill="#9f1111" opacity=".9"/>
+<path d="M206 1416 C195 1400 173 1408 180 1427 C187 1441 206 1451 206 1451 C206 1451 225 1441 232 1427 C239 1408 217 1400 206 1416Z" fill="none" stroke="#ff9f92" stroke-width="4"/>
+
+<line x1="500" y1="1328" x2="950" y2="1328" stroke="#da4a36" stroke-width="1"/>
+<text x="735" y="1378" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-style="italic" fill="#fff4e5">Moja najveća ljubavi,</text>
+<text x="735" y="1448" text-anchor="middle" font-family="Georgia, serif" font-size="50" font-weight="700" fill="#fff3e5" stroke="#c62418" stroke-width="2">IVANA ZELENIČIĆ</text>
+<text x="735" y="1492" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#e34637">♥</text>
+</svg>
