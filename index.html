@@ -2,7 +2,7 @@
 <html lang="sr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
 <title>IVANA</title>
 <style>
 * {
@@ -12,33 +12,35 @@ html, body {
   position: fixed;
   inset: 0;
   margin: 0;
+  padding: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: clip;
   overscroll-behavior: none;
   touch-action: none;
   background: #000;
 }
-body {
-  display: grid;
-  place-items: center;
-}
-img {
+body::before {
+  content: "";
   position: fixed;
   inset: 0;
-  display: block;
   width: 100vw;
   height: 100vh;
   height: 100svh;
-  object-fit: contain;
-  object-position: center;
-  user-select: none;
-  -webkit-user-drag: none;
+  background: #000 url("ivana-new.jpg?v=20261010-4") center top / contain no-repeat;
   pointer-events: none;
 }
 </style>
 </head>
-<body>
-<img src="ivana-new.jpg?v=20261010-3" alt="Ivana Zeleničić" draggable="false">
+<body aria-label="Ivana Zeleničić">
+<script>
+(function () {
+  var stop = function (event) { event.preventDefault(); };
+  document.addEventListener("touchmove", stop, { passive: false });
+  document.addEventListener("wheel", stop, { passive: false });
+  document.addEventListener("gesturestart", stop, { passive: false });
+  window.addEventListener("scroll", function () { window.scrollTo(0, 0); }, { passive: true });
+})();
+</script>
 </body>
 </html>
